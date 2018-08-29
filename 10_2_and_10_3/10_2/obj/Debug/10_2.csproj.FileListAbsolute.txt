@@ -1,0 +1,10 @@
+G:\C#\Chapters\Chapter10\10_2_Polymorphism\10_2_and_10_3\10_2\bin\Debug\10_2.exe.config
+G:\C#\Chapters\Chapter10\10_2_Polymorphism\10_2_and_10_3\10_2\bin\Debug\10_2.exe
+G:\C#\Chapters\Chapter10\10_2_Polymorphism\10_2_and_10_3\10_2\bin\Debug\10_2.pdb
+G:\C#\Chapters\Chapter10\10_2_Polymorphism\10_2_and_10_3\10_2\obj\Debug\10_2.csprojAssemblyReference.cache
+G:\C#\Chapters\Chapter10\10_2_Polymorphism\10_2_and_10_3\10_2\obj\Debug\_10_2.Form1.resources
+G:\C#\Chapters\Chapter10\10_2_Polymorphism\10_2_and_10_3\10_2\obj\Debug\_10_2.Properties.Resources.resources
+G:\C#\Chapters\Chapter10\10_2_Polymorphism\10_2_and_10_3\10_2\obj\Debug\10_2.csproj.GenerateResource.cache
+G:\C#\Chapters\Chapter10\10_2_Polymorphism\10_2_and_10_3\10_2\obj\Debug\10_2.csproj.CoreCompileInputs.cache
+G:\C#\Chapters\Chapter10\10_2_Polymorphism\10_2_and_10_3\10_2\obj\Debug\10_2.exe
+G:\C#\Chapters\Chapter10\10_2_Polymorphism\10_2_and_10_3\10_2\obj\Debug\10_2.pdb
