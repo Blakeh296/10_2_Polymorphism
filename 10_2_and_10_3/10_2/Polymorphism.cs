@@ -8,13 +8,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using _10_2.Classes;
+using AbstractClasses;
 
 namespace _10_2
 {
 
-    public partial class Form1 : Form
+    public partial class Polymorphism : Form
     {
-        public Form1()
+        public Polymorphism()
         {
             InitializeComponent();
         }
@@ -63,10 +64,7 @@ namespace _10_2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            // Create the new form
-            _10_3 newForm = new _10_3();
-            // And display for the user
-            newForm.Show();
+
         }
     }
 }

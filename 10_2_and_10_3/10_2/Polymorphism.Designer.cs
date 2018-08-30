@@ -1,6 +1,6 @@
 ﻿namespace _10_2
 {
-    partial class Form1
+    partial class Polymorphism
     {
         /// <summary>
         /// Required designer variable.
@@ -99,7 +99,7 @@
             this.exitToolStripMenuItem.Text = "&Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
-            // Form1
+            // Polymorphism
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -110,7 +110,7 @@
             this.Controls.Add(this.btnCreateAnimal);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Form1";
+            this.Name = "Polymorphism";
             this.Text = "10.2 Polymorphism";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
