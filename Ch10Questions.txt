@@ -1,0 +1,32 @@
+1. When one object is a specialized version of another object, there is an "A. is a Relationship".
+2.In an inheritance relationship, the "B. Base Class" is the general class.
+3.In an inheritance relationship, the "A. derived Class" is the specialized class.
+4. Base classes are sometimes called "D. Super Classes".
+5.Derived classes are sometimes called "B. Sub Classes".
+6.The "C. Base Keyword" refers to the base class.
+7.The term "C. Polymorphism" refers to an objects ability to take different forms.
+8.When a derived class method has the same name as a base class method, it is often said that the derived class method "C. Overides" the base class method.
+9.The "D. virtual Keyword" declares that a derived class is allowed to override a method.
+10.The "A. Override Keyword" declares that this method overrides a method in the base class.
+11.A class that is not intended to be instantiated, but used only as a base class, is clalled a "D. Abstract Class".
+12.To declare a class as abstract, you use the "A. Abstract Keyword" in the class header.
+13.A regular, nonabstract class is sometimes called a "C. Concrete class".
+14.A "B. Virtual method" is a method that appears in a base class but expects to be overridden in a derived class.
+15.A "D. Abstract Property" is a property that appears in a base class but expects to be overriden by in a derived class.
+16."A. Polymorphism" Allows a base class reference variable to reference a derived class object.
+T/F Questions
+1.The base class inherits fields, properties, and methods from the derived class. FALSE
+2.Polymorphism allows a class variable of the base class type to reference objects of either the base class or the derived class objects. TRUE
+3.Properties in a base class cannot be overridden in the same way that methods can be overridden. FALSE
+4.A base class can reference  an object of any class taht is derived from the base class. TRUE
+5.A statement that tries to use the new operator to instantiate an abstract class will not compile.TRUE
+6.A class taht is not intended to be instantiated, but used only as a base class, is called a concrete class. FALSE
+7.When an abstract property appears in a class, it must be overridden in any class that is derived from the class. TRUE
+Short answer Questions
+1. Every data member not private in the base class, same initial data layout from the base class. The base class constructor and destructor.
+2. The base class is Tiger, and the Felis class is derived from the tiger class
+3. No private members of the base class cannot be accessed by derived classes
+4.The base constructor class is called first unless overridden by the derived class
+5. when you can reuse code from a base class in a derived class
+6. A abstract class inherits from the base class and is essentially a specialized version of the base class
+7. Yes
