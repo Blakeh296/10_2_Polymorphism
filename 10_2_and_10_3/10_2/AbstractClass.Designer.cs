@@ -43,13 +43,14 @@
             this.label1 = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnOtherForm
             // 
-            this.btnOtherForm.Location = new System.Drawing.Point(255, 358);
+            this.btnOtherForm.Location = new System.Drawing.Point(255, 379);
             this.btnOtherForm.Name = "btnOtherForm";
             this.btnOtherForm.Size = new System.Drawing.Size(156, 28);
             this.btnOtherForm.TabIndex = 7;
@@ -59,6 +60,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.btnGetHours);
             this.groupBox1.Controls.Add(this.lblOutPutRequiredHours);
             this.groupBox1.Controls.Add(this.lblRequiredHours);
@@ -74,14 +76,14 @@
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Size = new System.Drawing.Size(399, 303);
+            this.groupBox1.Size = new System.Drawing.Size(399, 324);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Student Data";
             // 
             // btnGetHours
             // 
-            this.btnGetHours.Location = new System.Drawing.Point(48, 244);
+            this.btnGetHours.Location = new System.Drawing.Point(48, 265);
             this.btnGetHours.Margin = new System.Windows.Forms.Padding(4);
             this.btnGetHours.Name = "btnGetHours";
             this.btnGetHours.Size = new System.Drawing.Size(324, 51);
@@ -210,11 +212,20 @@
             this.exitToolStripMenuItem.Text = "&Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(274, 235);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(98, 23);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "Clear ";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // AbstractClass
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(420, 389);
+            this.ClientSize = new System.Drawing.Size(420, 419);
             this.Controls.Add(this.btnOtherForm);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
@@ -247,5 +258,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
+        private System.Windows.Forms.Button button1;
     }
 }
