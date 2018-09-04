@@ -8,7 +8,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using _10_2.Classes;
-using AbstractClasses;
 
 namespace _10_2
 {
@@ -64,7 +63,14 @@ namespace _10_2
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            //Hide this form
+            this.Hide();
+            //Create the next form object
+            AbstractClass nxtForm = new AbstractClass();
+            //Display the next form
+            nxtForm.ShowDialog();
+            //Close this form
+            this.Close();
         }
     }
 }
